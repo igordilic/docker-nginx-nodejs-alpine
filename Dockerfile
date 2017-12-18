@@ -53,4 +53,7 @@ RUN apk upgrade && \
       rm -rf /root/.cache && \
       rm -rf /var/cache/apk/*
 
+EXPOSE      80 443
+CMD         ["nginx", "-g", "daemon off;"]
+
 ENV CHROME_BIN /usr/bin/chromium-browser

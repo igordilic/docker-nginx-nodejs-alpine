@@ -8,6 +8,7 @@ RUN apk upgrade && \
       apk update && \
       apk add --no-cache \
       openssl-dev \
+      git \
       bash \
       make \
       curl \

@@ -23,7 +23,7 @@ RUN apk upgrade && \
       zlib-dev \
       wget \
       build-base \
-      nodejs \
+      nodejs-npm \
       yarn \
       python \
       openjdk8-jre \
